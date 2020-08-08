@@ -1,7 +1,7 @@
 class Division{
     constructor(x,y,w,h){
         var options = {
-            isStatic = true
+            isStatic : true
         }
         this.body = Bodies.rectangle(x,y,width,height,options);
         this.w = w;
