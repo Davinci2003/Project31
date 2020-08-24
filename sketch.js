@@ -14,7 +14,7 @@ var ground;
 function setup() {
  var canvas = createCanvas(480,800);
  engine = Engine.create();
- world = engine.world();
+ world = engine.world;
 
  for(var k = 0;k<=width; k=k+80){
   divisions.push(new Division(k,height-divisionHeight/2,10,divisionHeight));
